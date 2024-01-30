@@ -4,6 +4,7 @@ node{
     }
  stage("display file content"){
    sh """#!/bin/bash
+   pwd
    cat test_file
    """
 }
